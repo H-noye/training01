@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>우마이미세 풀페이지 실습</title>
+
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="./lib/css/reset.css">
+    <link rel="stylesheet" href="./lib/css/fonts.css">
+    <link rel="stylesheet" href="./lib/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./lib/css/jquery.mb.YTPlayer.min.css">
+    <link rel="stylesheet" href="./lib/css/jquery.fullpage.css">
+    <link rel="stylesheet" href="./lib/css/common.css">
+    <link rel="stylesheet" href="./css/layout.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <script src="./lib/js/jquery-1.12.4.min.js"></script>
+    <script src="./lib/js/swiper-bundle.min.js"></script>
+    <script src="./lib/js/jquery.mb.YTPlayer.min.js"></script>
+    <script src="./lib/js/jquery.fullpage.js"></script>
+    <script src="./lib/js/gsap.min.js"></script>
+    <script src="./js/custom.js"></script>
+</head>
+
+<body>
+    <div id="full_wrap">
+        <header id="header">
+            <div class="hd_wrap">
+                <h1>
+                    <a href="/">
+                        <span class="blind">우마이미세</span>
+                    </a>
+                </h1>
+                <nav class="gnb">
+                    <ul>
+                        <li><a href="">Brand</a></li>
+                        <li><a href="">Franchise</a></li>
+                        <li><a href="">Store</a></li>
+                    </ul>
+                </nav>
+                <a href="tel:1899-6683" class="tel">
+                    전화문의 <strong>1899-6683</strong>
+                </a>
+            </div>
+        </header>
+
+        <aside class="side_lnk">
+            <ul>
+                <li class="on"><a href="#intro">intro</a></li>
+                <li><a href="#store">store</a></li>
+                <li><a href="#banner">banner</a></li>
+                <li><a href="#solution">solution</a></li>
+                <li><a href="#promotion">promotion</a></li>
+                <li><a href="#story">story</a></li>
+                <li><a href="#event">event</a></li>
+                <li><a href="#customer">customer</a></li>
+            </ul>
+        </aside>
+
+        <section id="main_intro" class="section default">
+            <div class="slg title w">
+                <h2 class="serif">“ 맛있는 가게 ” 우마이미세</h2>
+                <p>다시 생각나는 맛! 잊을 수 없는 맛! 맛을 만드는 가게 우마이미세는 “ 맛있는 가게 ” 라는 의미를 가집니다.<br>
+                    함바그를 더욱 맛있게 즐길 수 있도록 특별한 맛과 경험을 선사합니다.
+                </p>
+                <a href="" class="default_btn lnk">BRAND 바로가기</a>
+            </div>
+        </section>
+        <section id="main_store" class="section default">
+            <div class="inner">
+                <div class="left">
+                    <figure>
+                        <img src="./images/main_store01.jpg" alt="">
+                    </figure>
+                </div>
+                <div class="right">
+                    <div class="title">
+                        <h2 class="serif">“ 맛있는 가게 ” 우마이미세</h2>
+                        <p>다시 생각나는 맛! 잊을 수 없는 맛! 맛을 만드는 가게 우마이미세는 “ 맛있는 가게 ” 라는 의미를 가집니다.<br>
+                            함바그를 더욱 맛있게 즐길 수 있도록 특별한 맛과 경험을 선사합니다.
+                        </p>
+                        <a href="" class="default_btn lnk">BRAND 바로가기</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="main_banner" class="section default">
+            <div class="inner">
+                <div class="title w">
+                    <h2 class="serif">“ 맛있는 가게 ” 우마이미세</h2>
+                    <p>다시 생각나는 맛! 잊을 수 없는 맛! 맛을 만드는 가게 우마이미세는 “ 맛있는 가게 ” 라는 의미를 가집니다.<br>
+                        함바그를 더욱 맛있게 즐길 수 있도록 특별한 맛과 경험을 선사합니다.
+                    </p>
+                    <a href="" class="default_btn lnk">BRAND 바로가기</a>
+                </div>
+            </div>
+        </section>
+        <section id="main_solution" class="section default">
+            <div class="title">
+                <h2 class="serif">“ 맛있는 가게 ” 우마이미세</h2>
+                <p>다시 생각나는 맛! 잊을 수 없는 맛! 맛을 만드는 가게 우마이미세는 “ 맛있는 가게 ” 라는 의미를 가집니다.
+                </p>
+            </div>
+            <div class="solution_wrap">
+                <div class="swiper main_solution_slide">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide itm">
+                            <figure>
+                                <img src="./images/main_solution01.jpg" alt="">
+                            </figure>
+                            <div class="txt">
+                                <em>한 입에 감동을 느낄 수 있는</em>
+                                <strong>100% 순쇠고기 함바그</strong>
+                                <p>일본의 함바그 맛을 벗어나<br>
+                                    한국인에게 가장 맛있는 함바그를 만들었습니다.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide itm">
+                            <figure>
+                                <img src="./images/main_solution02.jpg" alt="">
+                            </figure>
+                            <div class="txt">
+                                <em>한 입에 감동을 느낄 수 있는</em>
+                                <strong>100% 순쇠고기 함바그</strong>
+                                <p>일본의 함바그 맛을 벗어나<br>
+                                    한국인에게 가장 맛있는 함바그를 만들었습니다.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide itm">
+                            <figure>
+                                <img src="./images/main_solution03.jpg" alt="">
+                            </figure>
+                            <div class="txt">
+                                <em>한 입에 감동을 느낄 수 있는</em>
+                                <strong>100% 순쇠고기 함바그</strong>
+                                <p>일본의 함바그 맛을 벗어나<br>
+                                    한국인에게 가장 맛있는 함바그를 만들었습니다.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide itm">
+                            <figure>
+                                <img src="./images/main_solution01.jpg" alt="">
+                            </figure>
+                            <div class="txt">
+                                <em>한 입에 감동을 느낄 수 있는</em>
+                                <strong>100% 순쇠고기 함바그</strong>
+                                <p>일본의 함바그 맛을 벗어나<br>
+                                    한국인에게 가장 맛있는 함바그를 만들었습니다.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide itm">
+                            <figure>
+                                <img src="./images/main_solution02.jpg" alt="">
+                            </figure>
+                            <div class="txt">
+                                <em>한 입에 감동을 느낄 수 있는</em>
+                                <strong>100% 순쇠고기 함바그</strong>
+                                <p>일본의 함바그 맛을 벗어나<br>
+                                    한국인에게 가장 맛있는 함바그를 만들었습니다.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide itm">
+                            <figure>
+                                <img src="./images/main_solution03.jpg" alt="">
+                            </figure>
+                            <div class="txt">
+                                <em>한 입에 감동을 느낄 수 있는</em>
+                                <strong>100% 순쇠고기 함바그</strong>
+                                <p>일본의 함바그 맛을 벗어나<br>
+                                    한국인에게 가장 맛있는 함바그를 만들었습니다.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="main_promotion" class="section default">
+            <div id="promotion_movie" class="player">
+                <h2 class="blind">홍보 동영상</h2>
+            </div>
+            <div class="cont">
+                <button>
+                    <svg width="32" height="32" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <use href="./lib/icon/feather-sprite.svg#pause" />
+                    </svg>
+                    <svg width="32" height="32" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <use href="./lib/icon/feather-sprite.svg#play" />
+                    </svg>
+                </button>
+            </div>
+        </section>
+        <section id="main_story" class="section default">
+            <div class="text_ani">
+                <span>うまいお店</span>
+                <span>うまいお店</span>
+                <span>うまいお店</span>
+                <span>うまいお店</span>
+                <span>うまいお店</span>
+                <span>うまいお店</span>
+            </div>
+            <div class="title">
+                <h2 class="serif">“ 맛있는 가게 ” 우마이미세</h2>
+                <p>다시 생각나는 맛! 잊을 수 없는 맛! 맛을 만드는 가게 우마이미세는 “ 맛있는 가게 ” 라는 의미를 가집니다.
+                </p>
+            </div>
+            <div class="inner">
+                <ul class="tap_menu">
+                    <li><button class="on">즐거운 맛</button></li>
+                    <li><button>신선한 맛</button></li>
+                    <li><button>한결같은 맛</button></li>
+                </ul>
+                <div class="tap_content">
+                    <div class="itm itm01 on">
+                        <div class="swiper mian_story_slide01">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide con">
+                                    <figure>
+                                        <img src="./images/main_story_tap011.jpg" alt="">
+                                    </figure>
+                                </div>
+                                <div class="swiper-slide con">
+                                    <figure>
+                                        <img src="./images/main_story_tap012.jpg" alt="">
+                                    </figure>
+                                </div>
+                                <div class="swiper-slide con">
+                                    <figure>
+                                        <img src="./images/main_story_tap013.jpg" alt="">
+                                    </figure>
+                                </div>
+                                <div class="swiper-slide con">
+                                    <figure>
+                                        <img src="./images/main_story_tap014.jpg" alt="">
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="arrows">
+                            <button class="prev">
+                                <svg width="24" height="24" fill="none" stroke="#333" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <use href="./lib/icon/feather-sprite.svg#arrow-left" />
+                                </svg>
+                            </button>
+                            <button class="next">
+                                <svg width="24" height="24" fill="none" stroke="#333" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <use href="./lib/icon/feather-sprite.svg#arrow-right" />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="itm itm02">
+                        <div class="swiper mian_story_slide02">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide con">
+                                    <figure>
+                                        <img src="./images/main_story_tap021.jpg" alt="">
+                                    </figure>
+                                </div>
+                                <div class="swiper-slide con">
+                                    <figure>
+                                        <img src="./images/main_story_tap022.jpg" alt="">
+                                    </figure>
+                                </div>
+                                <div class="swiper-slide con">
+                                    <figure>
+                                        <img src="./images/main_story_tap023.jpg" alt="">
+                                    </figure>
+                                </div>
+                                <div class="swiper-slide con">
+                                    <figure>
+                                        <img src="./images/main_story_tap024.jpg" alt="">
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="arrows">
+                            <button class="prev">
+                                <svg width="24" height="24" fill="none" stroke="#333" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <use href="./lib/icon/feather-sprite.svg#arrow-left" />
+                                </svg>
+                            </button>
+                            <button class="next">
+                                <svg width="24" height="24" fill="none" stroke="#333" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <use href="./lib/icon/feather-sprite.svg#arrow-right" />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="itm itm03">
+                        <div class="swiper mian_story_slide03">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide con">
+                                    <figure>
+                                        <img src="./images/main_story_tap014.jpg" alt="">
+                                    </figure>
+                                </div>
+                                <div class="swiper-slide con">
+                                    <figure>
+                                        <img src="./images/main_story_tap013.jpg" alt="">
+                                    </figure>
+                                </div>
+                                <div class="swiper-slide con">
+                                    <figure>
+                                        <img src="./images/main_story_tap012.jpg" alt="">
+                                    </figure>
+                                </div>
+                                <div class="swiper-slide con">
+                                    <figure>
+                                        <img src="./images/main_story_tap011.jpg" alt="">
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="arrows">
+                            <button class="prev">
+                                <svg width="24" height="24" fill="none" stroke="#333" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <use href="./lib/icon/feather-sprite.svg#arrow-left" />
+                                </svg>
+                            </button>
+                            <button class="next">
+                                <svg width="24" height="24" fill="none" stroke="#333" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <use href="./lib/icon/feather-sprite.svg#arrow-right" />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="main_event" class="section default">
+            <div class="inner">
+                <div class="title">
+                    <h2 class="serif">“ 맛있는 가게 ” 우마이미세</h2>
+                    <p>다시 생각나는 맛! 잊을 수 없는 맛! 맛을 만드는 가게 우마이미세는 “ 맛있는 가게 ” 라는 의미를 가집니다.<br>
+                        함바그를 더욱 맛있게 즐길 수 있도록 특별한 맛과 경험을 선사합니다.
+                    </p>
+                    <a href="" class="default_btn lnk">BRAND 바로가기</a>
+                </div>
+                <div class="right">
+                    <div class="swiper mian_event_slide01">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide con">
+                                <figure>
+                                    <img src="./images/main_story_tap011.jpg" alt="">
+                                </figure>
+                            </div>
+                            <div class="swiper-slide con">
+                                <figure>
+                                    <img src="./images/main_story_tap012.jpg" alt="">
+                                </figure>
+                            </div>
+                            <div class="swiper-slide con">
+                                <figure>
+                                    <img src="./images/main_story_tap013.jpg" alt="">
+                                </figure>
+                            </div>
+                            <div class="swiper-slide con">
+                                <figure>
+                                    <img src="./images/main_story_tap014.jpg" alt="">
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="right r">
+                    <div class="swiper mian_event_slide02">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide con">
+                                <figure>
+                                    <img src="./images/main_story_tap011.jpg" alt="">
+                                </figure>
+                            </div>
+                            <div class="swiper-slide con">
+                                <figure>
+                                    <img src="./images/main_story_tap012.jpg" alt="">
+                                </figure>
+                            </div>
+                            <div class="swiper-slide con">
+                                <figure>
+                                    <img src="./images/main_story_tap013.jpg" alt="">
+                                </figure>
+                            </div>
+                            <div class="swiper-slide con">
+                                <figure>
+                                    <img src="./images/main_story_tap014.jpg" alt="">
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer id="footer" class="section default fp-auto-height">
+            <div class="ft_top">
+                <div class="w_inner">
+                    <div class="title w">
+                        <h2 class="serif">우마이미세와 함께 할 가족을 모십니다.</h2>
+                        <p>다시 생각나는 맛! 잊을 수 없는 맛! 맛을 만드는 가게 우마이미세는 “ 맛있는 가게 ” 라는 의미를 가집니다.<br>
+                            함바그를 더욱 맛있게 즐길 수 있도록 특별한 맛과 경험을 선사합니다.
+                        </p>
+                        <a href="" class="default_btn lnk">가맹안내 바로가기</a>
+                    </div>
+                    <div class="bg">
+                        <span class="blind">우마이미세와 함께 할 가족을 모십니다.</span>
+                    </div>
+                </div>
+            </div>
+            <div class="ft_bottom">
+                <div class="ft_wrap">
+                    <div class="left">
+                        <ul class="customer">
+                            <li>상호 : 우마이미세</li>
+                            <li>대표자 : 안병대</li>
+                            <li>소재지 : 부산광역시 해운대구 센텀중앙로 90, 20층 2003호</li>
+                            <li>사업자등록번호 : 576-86-03376</li>
+                            <li>대표번호 : 1899-6683 (주중 10:00-18:00)</li>
+                        </ul>
+                        <address>
+                            Copyright ⓒ 2023 우마이미세 All rights reserved.
+                        </address>
+                    </div>
+                    <div class="right">
+                        <div class="ft_lnk">
+                            <ul>
+                                <li><a href="">Brand</a></li>
+                                <li><a href="">Franchise</a></li>
+                                <li><a href="">Store</a></li>
+                            </ul>
+                        </div>
+                        <a href="" target="_blank">INSTAGRAM</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <a href="#intro" class="to_top">
+            <svg width="24" height="24" fill="none" stroke="#333" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <use href="./lib/icon/feather-sprite.svg#arrow-up" />
+            </svg>
+        </a>
+    </div>
+</body>
+
+</html>
