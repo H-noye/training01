@@ -42,7 +42,7 @@ $(function () {
 
 
     const main_solution_slide = new Swiper('.main_solution_slide', {
-        slidesPerView: "auto",
+        slidesPerView: "2",
         centeredSlides: true,
         spaceBetween: 30,
         loop: true,
