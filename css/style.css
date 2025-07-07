@@ -161,16 +161,15 @@
 
 #main_solution .main_solution_slide .itm {
     position: relative;
-    max-width: 880px;
-    transform: scale(0.9);
     border-radius: 0;
     overflow: hidden;
     transition: 0.4s;
+    scale: 0.9;
 }
 
 #main_solution .main_solution_slide .itm.swiper-slide-active {
-    transform: scale(1);
     border-radius: 40px;
+    scale: 1;
 }
 
 #main_solution .main_solution_slide .itm figure {
